@@ -70,3 +70,7 @@ function clear(event) {
 		ctx.clearRect(event.clientX - 20, event.clientY - 20, 50, 50);
 	}
 }
+
+canvas.addEventListener('mouseout', function(event) {
+	mouseDown = false;
+});
